@@ -7,9 +7,7 @@
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
-
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
+<img src="https://github.com/nicodenn/Flashcards/blob/master/FlashcardLab3.gif" width=200><br>
 
 ## Required
 - [x] User can browse through multiple flashcards
