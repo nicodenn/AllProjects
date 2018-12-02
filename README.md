@@ -6,22 +6,22 @@ Introduction to iOS programming: CODEPATH
 
 (COMP151) Data abstractions and Problem solving with Java: University of San Diego
 
-Projects:
+<strong>Projects:</strong>
   Flashcards project (Codepath):
       This project was completed over the duration of the course in which every other week we would add 
       functionality to a flashcard app similar in design and functionality to that of quizlet. 
 
-  NumOrder project (COMP151):
+  <strong>NumOrder project (COMP151):</strong>
       This project was the first I completed in my COMP151 course. The program takes in a file input containing
       a set of numbers and it returns a new file with the numbers in order of size with all repeated numbers removed.
   
-  HomeWork organizer (COMP151):
+  <strong>HomeWork organizer (COMP151):</strong>
       This project was the second I completed in my COMP151 course. This project utilizes three classes to organize user
       input in the form of homework assignments with a title, description, and due date. It implements a linked list to 
       store the data and has a simple user interface to allow the user to interact with the program to input assignments, 
       organize and display them and delete assignments. 
   
-  Infix to Postfix (COMP151):
+ <strong>Infix to Postfix (COMP151):</strong>
       This program implements three classes to utilize a stack data structure to take an infix expression as input and 
       then convert it to a postfix expression before producing a numerical output.
       
