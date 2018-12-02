@@ -1,0 +1,20 @@
+Script started on Tue 13 Nov 2018 10:03:38 AM PST
+]0;sspinali@lh-cslab-001:~/COMP151/proj3[?1034h[sspinali@lh-cslab-001 proj3]$ ls
+firstRun  Node.class  Node.java  proj3.class  proj3.java  StackRefBased.class  StackRefBased.java
+]0;sspinali@lh-cslab-001:~/COMP151/proj3[sspinali@lh-cslab-001 proj3]$ java proj3
+Welcome to my simple calculator!
+Please enter an infix expression: 
+4*(9-2)+8/2
+Evaluated expression: 32
+Would you like to run the program again? (y/n)
+y
+Welcome to my simple calculator!
+Please enter an infix expression: 
+43+18( *2+(9/3)
+Evaluated expression: 82
+Would you like to run the program again? (y/n)
+n
+]0;sspinali@lh-cslab-001:~/COMP151/proj3[sspinali@lh-cslab-001 proj3]$ exit
+exit
+
+Script done on Tue 13 Nov 2018 10:04:42 AM PST

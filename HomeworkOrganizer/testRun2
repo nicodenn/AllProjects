@@ -1,0 +1,87 @@
+Script started on Thu 25 Oct 2018 01:15:44 PM PDT
+]0;sspinali@lh-cslab-001:~/COMP151/proj2[?1034h[sspinali@lh-cslab-001 proj2]$ java proj2
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+a
+Please enter the due date for assignment (Between 1 and 31).
+16
+Please enter assignment description on the next line.
+science homeowrk    work
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+a
+Please enter the due date for assignment (Between 1 and 31).
+3
+Please enter assignment description on the next line.
+math sh  homeowkr    work
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+a
+Please enter the due date for assignment (Between 1 and 31).
+2 3
+Please enter assignment description on the next line.
+history project
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+a
+Please enter the due date for assignment (Between 1 and 31).
+12
+Please enter assignment description on the next line.
+another assigm nment
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+l
+Date: 3. Description: math homework.
+Date: 3. Description: history project.
+Date: 12. Description: another assignment.
+Date: 16. Description: science homework.
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+r
+Please enter the position of the item that you wish to delete.
+3
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+l
+Date: 3. Description: math homework.
+Date: 3. Description: history project.
+Date: 16. Description: science homework.
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+f
+Date: 3. Assignent description: math homework.
+Date: 3. Assignment description: history project.
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+q
+]0;sspinali@lh-cslab-001:~/COMP151/proj2[sspinali@lh-cslab-001 proj2]$ exit
+exit
+
+Script done on Thu 25 Oct 2018 01:16:56 PM PDT

@@ -1,0 +1,86 @@
+Script started on Thu 25 Oct 2018 01:12:14 PM PDT
+]0;sspinali@lh-cslab-001:~/COMP151/proj2[?1034h[sspinali@lh-cslab-001 proj2]$ java proj2
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+a
+Please enter the due date for assignment (Between 1 and 31).
+18
+Please enter assignment description on the next line.
+first assignment
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+a
+Please enter the due date for assignment (Between 1 and 31).
+6
+Please enter assignment description on the next line.
+italian homewo wo  ok rk
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+a
+Please enter the due date for assignment (Between 1 and 31).
+22
+Please enter assignment description on the next line.
+Computer Science homeowrk  ork     work
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+a
+Please enter the due date for assignment (Between 1 and 31).
+12
+Please enter assignment description on the next line.
+math
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+l
+Date: 6. Description: italian homework.
+Date: 12. Description: math.
+Date: 18. Description: first assignment.
+Date: 22. Description: Computer Science homework.
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+r
+Please enter the position of the item that you wish to delete.
+2
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+l
+Date: 6. Description: italian homework.
+Date: 18. Description: first assignment.
+Date: 22. Description: Computer Science homework.
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+f
+Date: 6. Assignent description: italian homework.
+To add new assignment press "a"
+To remove an assignment press "r"
+To list assignments by order of due dates press "l"
+To find assignment(s) with the earliest due dates press "f"
+To quit program press "q"
+q
+]0;sspinali@lh-cslab-001:~/COMP151/proj2[sspinali@lh-cslab-001 proj2]$ exit
+exit
+
+Script done on Thu 25 Oct 2018 01:13:39 PM PDT

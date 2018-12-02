@@ -1,0 +1,42 @@
+Script started on Tue 02 Oct 2018 09:49:34 AM PDT
+]0;sspinali@lh-cslab-001:~/COMP151/proj1[?1034h[sspinali@lh-cslab-001 proj1]$ cat sampleNums.txt
+0
+1
+3
+3
+3
+5
+5
+5
+7
+8
+8
+8
+13
+22
+22
+22
+44
+46
+]0;sspinali@lh-cslab-001:~/COMP151/proj1[sspinali@lh-cslab-001 proj1]$ java testNumbers
+Please enter name of input file 
+sampleNums.txt
+Please enter name of output file 
+newNums.txt
+Would you like to continue? (yes/no)
+n
+]0;sspinali@lh-cslab-001:~/COMP151/proj1[sspinali@lh-cslab-001 proj1]$ cat newNums.txt
+0 
+1 
+3 
+5 
+7 
+8 
+13 
+22 
+44 
+46 
+]0;sspinali@lh-cslab-001:~/COMP151/proj1[sspinali@lh-cslab-001 proj1]$ exit
+exit
+
+Script done on Tue 02 Oct 2018 09:50:51 AM PDT
