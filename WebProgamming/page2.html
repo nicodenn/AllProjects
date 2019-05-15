@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+        nav{
+            text-align: center;
+        }
+        header{
+            background-color: blue;
+        }
+        footer{
+            vertical-align: bottom;
+            text-align: center;
+        }
+        #button{
+            width: 100px;
+            display:-ms-grid;
+            
+            
+        }
+        #button:hover{
+            transform: scale(1.1, 1.1);
+            background: repeating-radial-gradient(white, #bbb);
+        }
+        section{
+            content:normal;
+            padding: 5px;
+            border: 5px solid black;
+            margin: 5px;
+        }
+        #head {
+        text-shadow: 0 0 4px yellow;
+        color:black;
+        font-size: 25pt;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        animation-name: move;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes move {
+        0%   { left: 0px; }
+        25%  { left: 50vw; }
+        50%  { left: 0px;  }
+        75%  { left: -50vw; }
+        100% { left: 0px; }
+    }
+    </style>
+</head>
+<body>
+        <header>
+                <h1 id="head" >Contact Us</h1>
+            </header>
+            <script type="text/javascript" src="validate.js"></script>
+<nav>
+        <a href="index.html">Homepage</a>
+        <a href="page1.html">Back to page 1</a>
+    </nav>
+    <form style="text-align: center" id="form">
+        <section>
+            <p>Name:</p>
+            <input type="text"id="name">
+        </section>
+        <section>
+            <p>Email:</p>
+            <input type="text" id="email">
+        </section>
+        <section>
+            <p>Comments:</p>
+            <input type="text" width="500" height="500">
+        </section>
+        <section>
+            <p>Date:</p>
+            <input type="date">
+        </section>
+        <input type="button" value="submit" id="button" onclick="validateForm()">
+    </form>
+    <footer>
+        <p>Owner is Nico Dennis &copy; &dollar; 2019</p>
+    </footer>
+</body>
+

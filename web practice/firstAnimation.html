@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+            body{
+                background: red;
+                -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+                animation: mymove 5s infinite;
+                }
+
+                /* Chrome, Safari, Opera */
+                @-webkit-keyframes mymove {
+                0% {background-color: red;}
+                25%{background-color: yellow;}
+                50% {background-color: blue;}
+                75%{background-color: purple;}
+                100% {background-color: red;}
+                }
+
+
+                /* Standard syntax */
+                @keyframes mymove {
+                0% {background-color: red;}
+                25%{background-color: yellow;}
+                50% {background-color: blue;}
+                75%{background-color: purple;}
+                100% {background-color: red;}
+                }
+                
+            
+            div{
+                position:absolute !important;
+                top:calc(50% - 100px);
+                left:calc(50% - 100px);
+                width: 200px;
+                height: 200px;
+                background-color: coral;
+                -webkit-animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+                animation:square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+            }
+            @keyframes square-to-circle {
+                0%  {
+                    border-radius:0 0 0 0;
+                    background:coral;
+                    -webkit-transform:rotate(0deg);
+                    transform:rotate(0deg);
+                }
+                25%  {
+                    border-radius:50% 0 0 0;
+                    background:darksalmon;
+                    -webkit-transform:rotate(45deg);
+                    transform:rotate(45deg);
+                }
+                50%  {
+                    border-radius:50% 50% 0 0;
+                    background:indianred;
+                    -webkit-transform:rotate(90deg);
+                    transform:rotate(90deg);
+                }
+                75%  {
+                    border-radius:50% 50% 50% 0;
+                    background:lightcoral;
+                    -webkit-transform:rotate(135deg);
+                    transform:rotate(135deg);
+                }
+                100% {
+                    border-radius:50%;
+                    background:darksalmon;
+                    -webkit-transform:rotate(180deg);
+                    transform:rotate(180deg);
+                }
+            }
+            @-webkit-keyframes square-to-circle {
+                0%  {
+                    border-radius:0 0 0 0;
+                    background:coral;
+                    -webkit-transform:rotate(0deg);
+                    transform:rotate(0deg);
+                }
+                25%  {
+                    border-radius:50% 0 0 0;
+                    background:darksalmon;
+                    -webkit-transform:rotate(45deg);
+                    transform:rotate(45deg);
+                }
+                50%  {
+                    border-radius:50% 50% 0 0;
+                    background:indianred;
+                    -webkit-transform:rotate(90deg);
+                    transform:rotate(90deg);
+                }
+                75%  {
+                    border-radius:50% 50% 50% 0;
+                    background:lightcoral;
+                    -webkit-transform:rotate(135deg);
+                    transform:rotate(135deg);
+                }
+                100% {
+                    border-radius:50%;
+                    background:darksalmon;
+                    -webkit-transform:rotate(180deg);
+                    transform:rotate(180deg);
+                }
+            }
+    </style>
+    <div></div>
+</head>
+</html>

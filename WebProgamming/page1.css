@@ -1,0 +1,39 @@
+nav{
+    background-color:cadetblue;
+    text-align: center;
+    
+}
+.imageNBA{
+    width:561px;
+    height:387px;
+}
+header{
+    background-color:rgb(0, 255, 255);
+    text-align: center;
+    text-decoration-color:green;
+    font-family:Courier New, Courier, monospace;
+}
+article{
+    background-image: repeating-radial-gradient(red, yellow 10%, deeppink 15%);
+    text-align: center;
+    box-shadow: 5px 5px;
+    border-radius: 15px;
+    clear:initial;
+}
+footer{
+    position:absolute;
+}
+@media (max-width: 600px) {
+    header {
+    margin: 0;
+    width: 100%;
+    align-content: center;
+    }
+    nav{
+    background-color:rgb(69, 245, 0);
+    font-size: 3pc;
+    }
+    .imageNBA{
+        width:100vw;
+    }
+}

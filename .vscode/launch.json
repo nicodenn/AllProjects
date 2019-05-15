@@ -1,0 +1,125 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Compress",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Compress",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Decompress",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Decompress",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HashTable",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "HashTable",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-algorithms",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "algorithms",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-decompress",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "decompress",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-meeting1",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "meeting1",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-meeting1fib",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "meeting1fib",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-proj2",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "proj2",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-proj3",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "proj3",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-proj4",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "proj4",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testNumbers",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "testNumbers",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}

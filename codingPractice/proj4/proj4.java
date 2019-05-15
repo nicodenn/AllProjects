@@ -3,10 +3,10 @@ import java.util.StringTokenizer;
 
 public class proj4
 {
-
-
     public static void main(String[] args)
     {
+        while(true)
+        {
         //take in user input for string
         System.out.println("Please enter the string you would like to encrypt");
         Scanner s = new Scanner(System.in);
@@ -33,7 +33,6 @@ public class proj4
         {
             curr = Integer.parseInt(st.nextToken());
             refQueue.enqueue(curr);
-            //System.out.println(curr);
         }
 
         for(int i = 0; i < inputString.length(); i++)
@@ -47,7 +46,6 @@ public class proj4
         }
 
         lastQueue = curr;
-        //System.out.println(curr);
         System.out.println(newString);
         String decryptedString = "";
 
@@ -66,7 +64,15 @@ public class proj4
             decryptedString = decryptedString + newLetter;
         }
         System.out.println("Your decrypted message is: " + decryptedString);
+
+        System.out.println("Would you like to run the program again?");
+        Scanner repeat = new Scanner(System.in);
+        String r = repeat.nextLine();
+        if(r.contains("n"))
+        {
+            break;
+        }
+        repeat.close();
+        }
     }
 }
-
-//12 -98765 234 6

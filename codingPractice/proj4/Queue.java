@@ -1,14 +1,17 @@
 public class Queue 
 {
     private Node b;
+
     public Queue()
     {
         Node b = null;
     }
+
     public boolean queueIsEmpty()
     {
         return (b==null);
     }
+
     public void enqueue(Object newItem)
     {
         Node newNode = new Node(newItem);
@@ -24,6 +27,7 @@ public class Queue
             b = newNode;
         }
     }
+
     public Object dequeue()
     throws RuntimeException
     {
@@ -44,8 +48,10 @@ public class Queue
         else
         {
             throw new RuntimeException();
-        } 
+        }
+        
     }
+
     public Object peek()
     throws RuntimeException
     {
@@ -62,5 +68,7 @@ public class Queue
     {
         b = b.getNext();
         return b.getItem();
-    } 
+    }
+
+    
 }

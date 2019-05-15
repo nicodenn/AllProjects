@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+    <script>
+        var uid = setTimeout(function() { alert("page timeout"); }, 30000);
+        var i = 0;
+        var pictures = ["empty.png","michael-jordan.jpg","kevin-durant.jpg","lejron-brames.jpg", "Draymond-Green.jpg","Steph-Curry.jpeg"];
+        function myClickHandler(event) 
+        {
+            var img = document.getElementById("firstpic");
+            img.setAttribute('src', pictures[Math.floor(Math.random() * 5) + 1]);
+            img.setAttribute('width',400)
+            img.setAttribute('height', 200);
+            i++;
+        }      
+    </script>
+    <style>
+        nav{
+              text-align: center;      
+            }
+        div.sticky {
+            top: 0;
+            display: inline;
+            /*background-color: green;
+            border: 2px solid #4CAF50;*/
+        }
+        body{
+                font-family:"Comic Sans MS";
+                background: azure;
+                -webkit-animation: mymove 10s infinite;
+                animation: mymove 10s infinite;
+                }
+                @-webkit-keyframes mymove {
+                0% {background-color: azure;}
+                /*25%{background-color: yellow;}*/
+                50% {background-color: yellow;}
+                75%{background-color: pink;}
+                100% {background-color: azure;}
+                }
+                @keyframes mymove {
+                0% {background-color: azure;}
+                /*25%{background-color: yellow;}*/
+                50% {background-color: yellow;}
+                75%{background-color: pink;}
+                100% {background-color: azure;}
+                }
+                
+    </style>
+</head>
+<body>
+    <div class="pictures">
+        <img src="click-here.jpg" alt="image failed to load" id="firstpic" width="300" height="300" position="absolute" style="float:right" onclick="myClickHandler()"/>
+    </div>
+    <div class="sticky">
+        <h1 align="center">What to know about the NBA</h1>
+    </div>
+    <nav>
+        <a href="page1.html">Continue to page 1</a>
+        <a href="page2.html">Contact us</a>
+    </nav>
+    <img  src="nbaLogo.png" alt="image failed to load" width="169" height="394" style="float:left">
+    <section>
+        <table>
+            <tr>
+                <th>Eastern Conference</th>
+                <th>Western Conference</th>
+            </tr>
+            <tr>
+                <td>Milwaukee Bucks</td>
+                <td>Golden State Warriors</td>
+            </tr>
+            <tr>
+                <td>Toronto Raptors</td>
+                <td>Denver Nuggets</td>
+            </tr>
+            <tr>
+                <td>Indianna Pacers</td>
+                <td>Oklahoma City Thunder</td>
+            </tr>
+            <tr>
+                <td>Boston Celtics</td>
+                <td>Portland Trail Blazers</td>
+            </tr>
+            <tr>
+                <td>Philadelphia 76ers</td>
+                <td>Houston Rockets</td>
+            </tr>
+            <tr>
+                <td>Brooklyn Nets</td>
+                <td>Utah Jazz</td>
+            </tr>
+            <tr>
+                <td>Charlotte Hornets</td>
+                <td>San Antonio Spurs</td>
+            </tr>
+            <tr>
+                <td>Miami Heat</td>
+                <td>Los Angeles Clippers</td>
+            </tr>
+            <tr>
+                <td>Detroit Pistons</td>
+                <td>Sacramento Kings</td>
+            </tr>
+            <tr>
+                <td>Washington Wizards</td>
+                <td>Los Angeles Lakers</td>
+            </tr>
+            <tr>
+                <td>Orlando Magic</td>
+                <td>Dallas Mavericks</td>
+            </tr>
+            <tr>
+                <td>Atlanta Hawks</td>
+                <td>Minnesota Timberwolves</td>
+            </tr>
+            <tr>
+                <td>Chicago Bulls</td>
+                <td>New Orleans Pelicans</td>
+            </tr>
+            <tr>
+                <td>Cleveland Cavaliers</td>
+                <td>Memphis Grizzles</td>
+            </tr>
+            <tr>
+                <td>New York Knicks</td>
+                <td>Phoenix Suns</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <p>A new Mascot proposed to the NBA</p>
+        <img src="svgcat.svg" alt="image failed to load"></a>
+    </section>
+    <section>
+        <p>The National Basketball Association (NBA) is a men's professional basketball league in North America; composed of 
+            30 teams (29 in the United States and 1 in Canada). It is widely considered to be the premier men's professional basketball league in the world. 
+            The NBA is an active member of USA Basketball (USAB),[2] which is recognized by FIBA (also known as the International Basketball Federation) as the 
+            national governing body for basketball in the United States. The NBA is one of the four major professional sports leagues in the United States and Canada. </p>
+        <a href="https://en.wikipedia.org/wiki/National_Basketball_Association" target="_blank">Wikipedia source of webpage info</a><br>
+    </section>
+    <footer>
+        <p>Owner is Nico Dennis &copy; &dollar; 2019</p>
+    </footer>
+    </body>
